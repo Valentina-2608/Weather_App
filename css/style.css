@@ -1,1 +1,14 @@
 /* Styles */
+
+body {
+    height: 200vh;
+    background: radial-gradient(#ffffff, #2b6ced); 
+  }
+
+ .main{
+    width:1000px;
+    height:600px;
+    position:relative;
+    margin:0 auto;
+    background-color: yellow;
+ }
