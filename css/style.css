@@ -58,3 +58,15 @@ body {
 
 
  
+
+ .wrapper_fon{
+    width:500px;
+    height:300px;
+    position:absolute;
+    top:200px;
+    left:250px;
+    background-color:white;
+    opacity: 0.3;
+    z-index:3;
+    border-radius:20px;
+ }
