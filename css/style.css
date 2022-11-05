@@ -65,6 +65,15 @@ h1{
  }
 
 
+ #result{
+    width:400px;
+    height:160px;
+    position:absolute;
+    top:80px;
+    left:2px;
+    background-color:green;
+ }
+
  
 
  .wrapper_fon{
