@@ -10,7 +10,15 @@ body {
     height:600px;
     position:relative;
     margin:0 auto;
+    text-align: center;
  }
+ 
+
+h1{
+    color:darkred;
+    padding-top:30px;
+    text-shadow: 2px 2px 2px white;
+}
 
  .wrapper{
     width:500px;
