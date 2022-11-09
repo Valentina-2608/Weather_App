@@ -157,3 +157,32 @@ h1{
     left:100px;
     z-index:2;
  }
+
+
+
+ /* Result's elements */
+
+ .name{
+   margin-top:3px;
+   font-size:24px;
+   color:darkred;
+   font-weight: bold;
+ }
+
+
+ .weather{
+   margin-top:-12px;
+   font-weight: bold;
+   font-size:18px;
+ }
+
+
+ #result img{
+   margin-top:-15px;
+ }
+
+ .temp{
+   font-size:19px;
+   font-weight: bold;
+   margin-top:0px;
+ }
