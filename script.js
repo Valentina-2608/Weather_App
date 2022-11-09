@@ -16,7 +16,7 @@ let getWeather = () => {
         .then((data) =>  {
             console.log(data);
             result.innerHTML = `
-            <h2>${data.name}</h2>
+            <p class="name">${data.name}</p>
             <p class=weather>${data.weather[0].description}</p>
             <img src = "http://openweathermap.org/img/wn/${data.weather[0].icon}.png"}>
             <p class="temp">${data.main.temp}</p>
