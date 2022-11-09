@@ -44,6 +44,7 @@ h1{
     border:none;
     border-bottom: 1px solid darkblue;
     padding-left:10px;
+    font-size:18px;
  }
 
  #city::placeholder{
@@ -69,7 +70,7 @@ h1{
     width:400px;
     height:160px;
     position:absolute;
-    top:80px;
+    top:60px;
     left:2px;
     background-color:green;
  }
