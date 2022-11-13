@@ -22,12 +22,27 @@ h1{
 
  .wrapper{
     width:500px;
-    height:400px;
+    height:100px;
     position:absolute;
     top:200px;
     left:250px;
     z-index:5;
  }
+ 
+
+ .wrapper_fon{
+   width:500px;
+   height:150px;
+   position:absolute;
+   top:200px;
+   left:250px;
+   background-color:white;
+   opacity: 0.3;
+   z-index:3;
+   border-radius:20px;
+}
+
+
 
  .container{
     width:400px;
@@ -76,21 +91,12 @@ h1{
     position:absolute;
     top:60px;
     left:2px;
+    display:none;
  }
 
  
 
- .wrapper_fon{
-    width:500px;
-    height:400px;
-    position:absolute;
-    top:200px;
-    left:250px;
-    background-color:white;
-    opacity: 0.3;
-    z-index:3;
-    border-radius:20px;
- }
+
 
 
  .shape1{
