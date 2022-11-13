@@ -185,3 +185,23 @@ h1{
    font-weight: bold;
    margin-top:0px;
  }
+
+
+.block_temperatures{
+   height:100px;
+}
+
+.min_temp, .max_temp{
+   width:200px;
+   float:left;
+}
+
+.caption{
+   font-weight: bold;
+   color:darkblue;
+}
+
+.temp1, .temp2{
+   font-size:18px;
+   font-weight: bold;
+}
