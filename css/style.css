@@ -193,17 +193,32 @@ h1{
 
 
 .block_temperatures{
-   height:100px;
+   height:80px;
+   margin-left:20px;
 }
 
-.min_temp, .max_temp{
-   width:200px;
+.max_temp{
+   width:180px;
    float:left;
+   height:80px;
 }
+
+
+.min_temp{
+   width:180px;
+   float:left;
+   height:80px;
+   border-right: 1px solid lightblue;
+}
+
+
+
+
 
 .caption{
    font-weight: bold;
    color:darkblue;
+   margin-top:5px;
 }
 
 .temp1, .temp2{
