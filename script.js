@@ -20,6 +20,16 @@ let getWeather = () => {
             <p class=weather>${data.weather[0].description}</p>
             <img src = "http://openweathermap.org/img/wn/${data.weather[0].icon}.png"}>
             <p class="temp">${data.main.temp} &#176;</p>
+            <div class="block_temperatures">
+                <div class="min_temp">
+                    <p class="caption">Min:</p>
+                    <p class="temp1">${data.main.temp_min}</p>
+                </div>
+                <div class="max_temp">
+                    <p class="caption">Max:</p>
+                    <p class="temp2">${data.main.temp_max}</p>
+                </div>
+            </div>
             
             
             
