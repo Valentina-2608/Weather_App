@@ -181,9 +181,10 @@ h1{
  }
 
  .temp{
-   font-size:19px;
+   font-size:24px;
    font-weight: bold;
    margin-top:0px;
+   color:darkred;
  }
 
 
