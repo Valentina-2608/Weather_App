@@ -3,6 +3,8 @@
 let result = document.getElementById('result');
 let search_btn = document.getElementById('search_btn');
 let city = document.getElementById('city');
+let wrapper = document.querySelector('.wrapper');
+let wrapper_fon = document.querySelector('.wrapper_fon');
 
 
 let getWeather = () => {
@@ -30,10 +32,10 @@ let getWeather = () => {
                     <p class="temp2">${data.main.temp_max}</p>
                 </div>
             </div>
-            
-            
-            
-            `;
+            `
+            result.style.display = 'block';
+            wrapper.style.height = '459px';
+            wrapper_fon.style.height = '450px';
         })
         .catch(() => {
             result.innerHTML=`<h3>City not found</h3>`
@@ -42,5 +44,4 @@ let getWeather = () => {
 }
 
 search_btn.addEventListener('click',getWeather);
-window.addEventListener("load", getWeather);
 
