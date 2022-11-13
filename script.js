@@ -41,6 +41,6 @@ let getWeather = () => {
     }
 }
 
-
+search_btn.addEventListener('click',getWeather);
 window.addEventListener("load", getWeather);
 
