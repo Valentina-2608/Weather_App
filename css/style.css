@@ -66,6 +66,10 @@ h1{
  }
 
 
+ #search_btn:hover{
+   cursor:pointer;
+ }
+
  #result{
     width:400px;
     height:160px;
